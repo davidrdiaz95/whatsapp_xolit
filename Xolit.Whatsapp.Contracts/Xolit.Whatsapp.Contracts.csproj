@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xolit.Modelos" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Xolit.Whatsapp.DataAccess\Xolit.Whatsapp.DataAccess.csproj" />
+    <ProjectReference Include="..\Xolit.Whatsapp.DataTransferObjects\Xolit.Whatsapp.DataTransferObjects.csproj" />
+  </ItemGroup>
+
+</Project>

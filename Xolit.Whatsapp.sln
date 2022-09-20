@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xolit.Whatsapp", "Xolit.Whatsapp\Xolit.Whatsapp.csproj", "{F3D427A4-AA25-4586-B37E-7861DC28B40C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xolit.Whatsapp.Contracts", "Xolit.Whatsapp.Contracts\Xolit.Whatsapp.Contracts.csproj", "{EAFCAD74-E871-4AB7-8CDE-55362C541C6B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xolit.Whatsapp.DataAccess", "Xolit.Whatsapp.DataAccess\Xolit.Whatsapp.DataAccess.csproj", "{A14302E0-CCF7-408F-84F1-CDAD5740B3CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xolit.Whatsapp.DataTransferObjects", "Xolit.Whatsapp.DataTransferObjects\Xolit.Whatsapp.DataTransferObjects.csproj", "{101E276E-2759-4AF8-AD4F-EE5B6FF3346A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xolit.Whatsapp.Domain", "Xolit.Whatsapp.Domain\Xolit.Whatsapp.Domain.csproj", "{359F8263-6D91-4A4F-A2CA-581AE4986714}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3D427A4-AA25-4586-B37E-7861DC28B40C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3D427A4-AA25-4586-B37E-7861DC28B40C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3D427A4-AA25-4586-B37E-7861DC28B40C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3D427A4-AA25-4586-B37E-7861DC28B40C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAFCAD74-E871-4AB7-8CDE-55362C541C6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAFCAD74-E871-4AB7-8CDE-55362C541C6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAFCAD74-E871-4AB7-8CDE-55362C541C6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAFCAD74-E871-4AB7-8CDE-55362C541C6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A14302E0-CCF7-408F-84F1-CDAD5740B3CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A14302E0-CCF7-408F-84F1-CDAD5740B3CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A14302E0-CCF7-408F-84F1-CDAD5740B3CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A14302E0-CCF7-408F-84F1-CDAD5740B3CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{101E276E-2759-4AF8-AD4F-EE5B6FF3346A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{101E276E-2759-4AF8-AD4F-EE5B6FF3346A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{101E276E-2759-4AF8-AD4F-EE5B6FF3346A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{101E276E-2759-4AF8-AD4F-EE5B6FF3346A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{359F8263-6D91-4A4F-A2CA-581AE4986714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{359F8263-6D91-4A4F-A2CA-581AE4986714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{359F8263-6D91-4A4F-A2CA-581AE4986714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{359F8263-6D91-4A4F-A2CA-581AE4986714}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A350382E-52C1-4396-A7FB-9C72ECF19B7E}
+	EndGlobalSection
+EndGlobal
