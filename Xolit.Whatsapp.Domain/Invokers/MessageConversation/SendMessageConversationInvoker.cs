@@ -11,17 +11,14 @@ namespace Xolit.Whatsapp.Domain.Invokers.MessageConversation
     public class SendMessageConversationInvoker : ISendMessageConversationInvoker
     {
         private readonly IGetForPhoneConversationCommand getForPhoneConversationCommand;
-        private readonly ICreateConversationCommand createConversationCommand;
         private readonly ICreateMessageConversationCommand createMessageConversationCommand;
         private readonly IMessageConversationQueryObject messageConversationQueryObject;
 
         public SendMessageConversationInvoker(IGetForPhoneConversationCommand getForPhoneConversationCommand,
-            ICreateConversationCommand createConversationCommand,
             ICreateMessageConversationCommand createMessageConversationCommand,
             IMessageConversationQueryObject messageConversationQueryObject)
         {
             this.getForPhoneConversationCommand = getForPhoneConversationCommand;
-            this.createConversationCommand = createConversationCommand;
             this.createMessageConversationCommand = createMessageConversationCommand;
             this.messageConversationQueryObject = messageConversationQueryObject;
         }
